@@ -3,7 +3,8 @@
 	padding: 0;
 }
 body {
-	width: 450px;
+	max-width: 100%;
+    overflow-x: hidden;
 }
 h1 {
 	margin: 0.9em 0em;
