@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	margin: 0.9em 0em;
+	font-family: fantasy;
+	margin-left: 100px;
+}
+#container {
+	font-family: arial;
+	width: 600px;
+	background-image: url("img/board.png");
+	background-repeat: no-repeat;
+}
+
+.grid {
+	display: inline-block;
+	width: 8.7em;
+	height: 8.7em;
+}
+
+	.line {
+		display: block;
+	}
+
+#you_win {
+	width: 380px;
+	margin-top: 200px;
+	position: absolute;
+}
+
+.hide {
+	display: none;
+}
+
+p {
+	margin: 2em 3.3em;
+	display: inline-block;
+	border-bottom: 1px solid #eee;
+}
+
+h2 {
+	margin: 0.5em 7em;
+}
+
+footer a {
+	margin-left: 200px;
+	font-size: 0.8em;
+	color: gray;
+
+}
